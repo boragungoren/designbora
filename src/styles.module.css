@@ -1,9 +1,39 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.Primary {
+  color: #fff;
+  border-color: orange;
+  background-color: orange;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+}
+.Default {
+width: 100px;
+height: 30px;
+margin-right: 10px;
+}
+.Dashed {
+background-color: blueviolet;
+width: 100px;
+height: 30px;
+margin-right: 10px;
+border: 1px dashed black;
+}
+.Text {
+background-color: white;
+border: none;
+width: 100px;
+height: 30px;
+margin-right: 10px;
+}
+.Link {
+width: 100px;
+height: 30px;
+margin-right: 10px;
+color: crimson;
+background-color: white;
+border: none;
 }

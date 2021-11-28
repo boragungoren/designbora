@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'designbora'
+import { Button } from 'designbora'
 import 'designbora/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const buttons = ['Primary', 'Default', 'Dashed', 'Text', 'Link']
+  return (
+    <>
+      {buttons.map((button) => {
+        return <Button type={button} />
+      })}
+    </>
+  )
 }
 
 export default App
